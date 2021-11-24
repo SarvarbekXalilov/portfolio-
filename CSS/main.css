@@ -2,6 +2,12 @@ body {
     font-family: sans-serif;
 }
 
+.container {
+    width: 1140px;
+    margin: Sto;
+    margin-left: auto;
+    margin-right: auto;
+}
 .main-header_brand {
     display: inline-block;
     vertical-align: middle;
@@ -35,4 +41,16 @@ body {
 
 .main-navigation_item.active a{
     flood-color:#a5364d ;
+}
+
+.main-section  {
+    padding: 100px 30px;
+}
+
+.main-section > div {
+    width: 50%;
+    float: left ;
+}
+.main-section_imag {
+    text-align: right;
 }
